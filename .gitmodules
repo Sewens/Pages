@@ -1,3 +1,6 @@
-[submodule ".\\themes\\zdoc"]
-	path = .\\themes\\zdoc
+# [submodule ".\\themes\\zdoc"]
+# 	path = .\\themes\\zdoc
+# 	url = git@github.com:ChisakaKanako/aboutTrans-theme.git
+[submodule "themes/paperMod"]
+	path = themes/paperMod
 	url = git@github.com:ChisakaKanako/aboutTrans-theme.git
