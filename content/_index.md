@@ -3,6 +3,7 @@ title: "Aboutras"
 author: "Sewen"
 date: "2019-03-05"
 description: "Front page"
+summary: "Simple front pages"
 ShowToc: false
 ShowBreadCrumbs: false
 ---
