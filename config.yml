@@ -29,9 +29,10 @@ languages:
       languageName: "Chinese"
       # contentDir: content/english      #必要时配置
       weight: 1
-      # homeInfoParams:
-      #   Title: "Aboutrans"
-      #   Content: "Live long and living pride"
+      params:
+        homeInfoParams:
+            Title: "Aboutrans"
+            Content: "Live long and living pride"
       menu:
         main:
           # - identifier: search
