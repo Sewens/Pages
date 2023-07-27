@@ -43,7 +43,7 @@ jobs:
       - name: Setting Private Key
         run: |
           eval `ssh-agent -s`
-          ssh-add - <<< '${{ secrets.PRIVATE_SSH_KEY }}' 
+          ssh-add - <<< '${{ secrets.SECRET_REPO_DEPLOY_KEY }}' 
       - name: Checkout
         uses: actions/checkout@v3
         with:
