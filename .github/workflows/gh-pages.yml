@@ -42,9 +42,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
+          repo-token: ${{ secrets.SECRET_REPO_DEPLOY_KEY }}
           submodules: true
           fetch-depth: 0
-          repo-token: ${{ secrets.SECRET_REPO_DEPLOY_KEY }}
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
