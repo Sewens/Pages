@@ -69,7 +69,7 @@ jobs:
       - name: Build with Hugo
         run: hugo --minify --enableGitInfo
       - name: Upload artifact
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./public
