@@ -44,7 +44,7 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
-          ssh-private-key: ${{ secrets.SECRET_REPO_DEPLOY_KEY }}
+          repo-token: ${{ secrets.SECRET_REPO_DEPLOY_KEY }}
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
