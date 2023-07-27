@@ -43,7 +43,8 @@ jobs:
       - name: Setting Private Key
         run: |
           eval `ssh-agent -s`
-          ssh-add - <<< '${{ secrets.SECRET_REPO_DEPLOY_KEY }}' 
+          ssh-add - <<< '${{ secrets.SECRET_REPO_DEPLOY_KEY }}'
+          git clone https://github.com/ChisakaKanako/aboutTrans-theme.git
       - name: Checkout
         uses: actions/checkout@v3
         with:
