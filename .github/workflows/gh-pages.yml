@@ -35,7 +35,7 @@ permissions:
 
 jobs:
   # Build job
-  build:
+  build-aboutrans:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: "0.115.4"
@@ -74,7 +74,7 @@ jobs:
         with:
           path: ./public
   # Deployment job
-  deploy:
+  deploy-aboutrans:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
