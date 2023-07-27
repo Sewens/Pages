@@ -22,3 +22,8 @@
     font-family: "NotoSansSC-Thin";
     src: url("/fonts/NotoSansSC-Thin.otf") format("truetype");
 }
+
+@font-face {
+    font-family: "NotoSerifSC-SemiBold";
+    src: url("/fonts/NotoSerifSC-SemiBold.otf") format("truetype");
+}
