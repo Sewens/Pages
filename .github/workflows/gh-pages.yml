@@ -40,21 +40,11 @@ jobs:
     env:
       HUGO_VERSION: "0.115.4"
     steps:
-      - name: Add SSH key
-        env:
-            SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-        run: |
-            mkdir -p /home/runner/.ssh
-            # 添加github服务器为可信目标
-            ssh-keyscan git@github.com >> /home/runner/.ssh/known_hosts
-            # 将项目中的private key引入
-            echo "${{ secrets.SECRET_REPO_DEPLOY_KEY }}" > /home/runner/.ssh/github_actions
-            chmod 600 /home/runner/.ssh/github_actions
-            ssh-agent -a $SSH_AUTH_SOCK > /dev/null	
-            ssh-add /home/runner/.ssh/github_actions
+      # - name: Add SSH key
+
       - uses: actions/checkout@v3
         with:
-          repo-token: ${{ secrets.SECRET_REPO_DEPLOY_KEY }}
+          token: ${{ secrets.SECRET_REPO_DEPLOY_KEY }}
           submodules: true
           fetch-depth: 0
       - name: Setup Hugo
