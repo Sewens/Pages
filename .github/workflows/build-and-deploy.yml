@@ -40,11 +40,11 @@ jobs:
     env:
       HUGO_VERSION: "0.115.4"
     steps:
-      # - name: Add SSH key
-          run: |
-            eval `ssh-agent -s`
-            ssh-add - <<< '${{ secrets.SECRET_REPO_DEPLOY_KEY }}'
-      - uses: actions/checkout@v3
+      - name: Add SSH key
+        run: |
+          eval `ssh-agent -s`
+          ssh-add - <<< '${{ secrets.SECRET_REPO_DEPLOY_KEY }}'
+    - uses: actions/checkout@v3
         with:
           submodules: true
           fetch-depth: 0
