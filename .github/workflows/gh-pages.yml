@@ -67,11 +67,9 @@ jobs:
           git submodule update --init --recursive
           git submodule update --remote --merge
       - name: Build with Hugo
-        run: |
-          hugo \
-            --buildDrafts --gc --verbose \
-            --baseURL ${{ steps.pages.outputs.base_url }}
+        run: hugo --minify --enableGitInfo
       - name: Upload artifact
+        if: github.ref == 'refs/heads/master'
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./public
