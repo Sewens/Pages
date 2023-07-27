@@ -40,14 +40,14 @@ jobs:
     env:
       HUGO_VERSION: "0.115.4"
     steps:
-      - name: Setting Private Key
-        run: |
-          eval `ssh-agent -s`
-          ssh-add - <<< '${{ secrets.SECRET_REPO_DEPLOY_KEY }}'
-          git clone https://github.com/ChisakaKanako/aboutTrans-theme.git
+      # - name: Setting Private Key
+      #   run: |
+      #     eval `ssh-agent -s`
+      #     ssh-add - <<< '${{ secrets.SECRET_REPO_DEPLOY_KEY }}'
       - name: Checkout
         uses: actions/checkout@v3
         with:
+          token: ${{ secrets.SECRET_REPO_DEPLOY_KEY }}
           submodules: true
           fetch-depth: 0
       - name: Setup Hugo
