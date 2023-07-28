@@ -9,13 +9,13 @@ on:
     branches:
       - master
       - exampleSite
-  workflow_dispatch:
-    # manual run
-    inputs:
-      hugoVersion:
-        description: "Hugo Version"
-        required: false
-        default: "0.115.4"
+  # workflow_dispatch:
+  #   # manual run
+  #   inputs:
+  #     hugoVersion:
+  #       description: "Hugo Version"
+  #       required: false
+  #       default: "0.115.4"
 
 # Allow one concurrent deployment
 concurrency:
@@ -36,9 +36,9 @@ permissions:
 jobs:
   # Build job
   build-aboutrans:
-    runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: "0.115.4"
+    # runs-on: ubuntu-latest
+    # env:
+    #   HUGO_VERSION: "0.115.4"
     steps:
       # 停止checkout submodule 在后面再更新
       # 此处只对本项目checkout
@@ -81,6 +81,12 @@ jobs:
     runs-on: ubuntu-latest
     needs: build-aboutrans
     steps:
+      # - name: Deploy to GitHub Pages
+      #   id: deployment
+      #   uses: actions/deploy-pages@v1
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          # github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
