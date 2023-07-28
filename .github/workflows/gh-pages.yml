@@ -67,10 +67,17 @@ jobs:
           git submodule update --init --recursive
           git submodule update --remote --merge
       - name: Build with Hugo
-        run: hugo --minify --enableGitInfo
+        env:
+          # For maximum backward compatibility with Hugo modules
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          hugo \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         if: github.ref == 'refs/heads/main'
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./public
   # Deployment job
