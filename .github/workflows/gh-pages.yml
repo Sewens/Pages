@@ -71,10 +71,7 @@ jobs:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-        run: |
-          hugo \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: hugo --minify --enableGitInfo
       - name: Upload artifact
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v2
