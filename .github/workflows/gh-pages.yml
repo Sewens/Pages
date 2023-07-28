@@ -36,7 +36,7 @@ permissions:
 jobs:
   # Build job
   build-aboutrans:
-    # runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     # env:
     #   HUGO_VERSION: "0.115.4"
     steps:
