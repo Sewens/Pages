@@ -1,9 +1,11 @@
 # baseURL: "https://aboutrans.info" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 baseURL: " https://sewens.github.io/TestHugo/"
+languageCode: zh-cn
 title: Aboutrans
 theme: paperMod
 
 # 本站配置
+enableInlineShortcodes: true
 enableEmoji: true # 允许使用 Emoji 表情，建议 true
 enableRobotsTXT: true # 允许爬虫抓取到搜索引擎，建议 true
 buildDrafts: false
@@ -12,7 +14,7 @@ buildExpired: false
 hasCJKLanguage: true # 自动检测是否包含 中文日文韩文 如果文章中使用了很多中文引号的话可以开启
 paginate: 15    # 每页显示的文章数
 defaultContentLanguage: zh # 最顶部首先展示的语言页面
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 summaryLength: 140 # 文章概览的自字数，默认70
 
 # googleAnalytics: UA-123-45
