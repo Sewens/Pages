@@ -9,13 +9,13 @@ on:
     branches:
       - master
       - exampleSite
-  # workflow_dispatch:
-  #   # manual run
-  #   inputs:
-  #     hugoVersion:
-  #       description: "Hugo Version"
-  #       required: false
-  #       default: "0.115.4"
+  workflow_dispatch:
+    # manual run
+    inputs:
+      hugoVersion:
+        description: "Hugo Version"
+        required: false
+        default: "0.115.4"
 
 # Allow one concurrent deployment
 concurrency:
