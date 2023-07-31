@@ -2,8 +2,6 @@
 title: "lawbda-pages"
 author: "Sewen"
 date: "2023-07-31"
-description: "Front page"
-summary: "Simple front pages"
 ShowToc: false
 ShowBreadCrumbs: false
 ---
