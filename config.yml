@@ -1,9 +1,6 @@
-# baseURL: "https://aboutrans.info" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 baseURL: "https://pages.lawbda.info/"
-# baseURL: "https://sewen.github.io/"
-# baseURL: "/"
 languageCode: zh-cn
-title: Aboutrans
+title: Trans'action on Living Pride
 theme: paperMod
 
 # 本站配置
@@ -36,8 +33,8 @@ languages:
       weight: 1
       params:
         homeInfoParams:
-            Title: "Aboutrans"
-            Content: "Live long and living pride"
+            Title: "Trans-on-Living-Pride"
+            Content: "Living long and prosper"
       menu:
         main:
           # - identifier: search
@@ -78,7 +75,7 @@ outputs:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     # description: "这是一个纯粹的博客......"
-    author: Sulv
+    author: 半生
     # author: ["Me", "You"] # multiple authors
     defaultTheme: auto  # defaultTheme: light or  dark 
     disableThemeToggle: false
@@ -103,7 +100,7 @@ params:
     
     # socialIcons:
     #     - name: github
-    #       url: "https://github.com/xyming108"
+    #       url: "https://github.com/sewens"
     #     - name: twitter
     #       url:  "img/twitter.png"
     #     - name: facebook
