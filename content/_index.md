@@ -1,12 +1,12 @@
 ---
-title: "Aboutras"
+title: "lawbda-pages"
 author: "Sewen"
-date: "2019-03-05"
+date: "2023-07-31"
 description: "Front page"
 summary: "Simple front pages"
 ShowToc: false
 ShowBreadCrumbs: false
 ---
 
-# hello world
-测试Aboutrans站点页面以及中文显示。
+# Welcome
+欢迎来到半生的小站，休息一下吧。
