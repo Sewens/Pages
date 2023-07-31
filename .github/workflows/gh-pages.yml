@@ -1,4 +1,4 @@
-name: Deploy Aboutrans to Pages
+name: Deploy lawbda-pages to Pages
 
 on:
   push:
@@ -35,7 +35,7 @@ permissions:
 
 jobs:
   # Build job
-  build-aboutrans:
+  build-lawbda:
     runs-on: ubuntu-latest
     # env:
     #   HUGO_VERSION: "0.115.4"
@@ -81,12 +81,12 @@ jobs:
         with:
           path: ./public
   # Deployment job
-  deploy-aboutrans:
+  deploy-lawbda:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build-aboutrans
+    needs: build-lawbda
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
