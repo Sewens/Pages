@@ -1,0 +1,28 @@
+-/*
+This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
+
+Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
+*/
+.post-content {
+    font-family: "NotoSansSC-Regular", sans-serif;
+}
+
+.post-title {
+    font-family: "NotoSansSC-Bold", sans-serif;
+}
+
+/* .post-content code {
+    font-family: "NotoSansSC-Thin";
+} */
+
+code {
+    font-family: "NotoSansSC-Thin" !important;
+}
+
+.logo a {
+    font-family: "NotoSansSC-Bold", sans-serif;
+}
+
+#menu a {
+    font-family: "NotoSansSC-Bold", sans-serif;
+}
