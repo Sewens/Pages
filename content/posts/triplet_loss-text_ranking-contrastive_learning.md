@@ -1,9 +1,35 @@
 ---
-author: sewen
 created: "2021-11-24 22:46"
-tags: ["#lawbda-kb"]
 title: "从三元Loss到文本排序"
-math: true
+
+lastmod: {{ .Date }}
+author: ["Sewens"]
+description: ""
+weight:
+draft: false # 是否为草稿
+comments: true # 本页面是否显示评论
+math: true # 是否开启KaTex渲染页面公式
+# mermaid: true #是否开启mermaid
+showToc: true # 显示目录
+TocOpen: false # 自动展开目录
+hidemeta: false # 是否隐藏文章的元信息，如发布日期、作者等
+disableShare: true # 底部不显示分享栏
+showbreadcrumbs: true #顶部显示路径
+tags:
+    - text ranking
+    - contrastive learning
+    - learning to rank
+# keywords: 
+# - 
+# categories:
+# - 
+# cover:
+#     image: "" #图片路径例如：posts/tech/123/123.png
+#     zoom: # 图片大小，例如填写 50% 表示原图像的一半大小
+#     caption: "" #图片底部描述
+#     alt: ""
+#     relative: false
+
 ---
 
 # 背景由来
