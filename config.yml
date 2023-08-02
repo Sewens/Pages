@@ -98,7 +98,7 @@ params:
     ShowLastMod: true #显示文章更新时间
 
     ShowToc: true # 显示目录
-    TocOpen: false # 自动展开目录
+    TocOpen: true # 自动展开目录
     disableShare: true # 不显示share按钮
     comments: true
     
