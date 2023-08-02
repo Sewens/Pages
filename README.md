@@ -12,3 +12,4 @@ Wish all my friends live long and prosper.
 - [ ] 页面分级（主页=>博客=>文章）功能修复
 - [ ] 搜索功能修复
 - [ ] 个人简介页重新设计（中文、英文），publication
+- [ ] 优化正文字体表现，包括中文、英文混排，加粗、斜体、`block`以及`inline tex`混排时的表现
