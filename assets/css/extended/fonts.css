@@ -1,11 +1,6 @@
 @font-face {
-    font-family: "NotoSansSC-Bold";
-    src: url("/fonts/NotoSansSC-Bold.otf") format("truetype");
-}
-
-@font-face {
-    font-family: "NotoSansSC-Regular";
-    src: url("/fonts/NotoSansSC-Regular.otf") format("truetype");
+    font-family: "ForkAwesome-WebFont";
+    src: url("/fonts/forkawesome-webfont.ttf") format("truetype");
 }
 
 @font-face {
