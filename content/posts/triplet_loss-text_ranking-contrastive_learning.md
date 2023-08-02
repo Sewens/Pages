@@ -2,7 +2,7 @@
 created: "2021-11-24 22:46"
 title: "从三元Loss到文本排序"
 
-lastmod: {{ .Date }}
+# lastmod: {{ .Date }}
 author: ["Sewens"]
 description: ""
 weight:
