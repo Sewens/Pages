@@ -86,7 +86,7 @@ params:
     # disableSpecialistPost: true
     displayFullLangName: true
     ShowPostNavLinks: true
-    ShowBreadCrumbs: true
+    ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     hideFooter: false # 隐藏页脚
     hideMeta: true  # 隐藏元信息
