@@ -14,5 +14,7 @@ Wish all my friends live long and prosper.
 - [ ] 个人简介页重新设计（中文、英文），publication
 - [x] 优化正文字体表现，包括中文、英文混排，加粗、斜体、`block`以及`inline tex`混排时的表现
 - [ ] 给post增加创建时间、最近修改时间显示功能
+- [ ] 设计新的浮动清爽`Toc`，随着阅读进度始终保持在主要文章左侧
+
 
 ## desc
