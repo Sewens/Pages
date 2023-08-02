@@ -3,22 +3,23 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
-.post-content {
-    font-family: "ForkAwesome-WebFont", sans-serif;
-}
-
-.post-title {
-    font-family: "ForkAwesome-WebFont", sans-serif;
-}
 
 code {
     font-family: "JetBrains Mono" !important;
 }
 
-.logo a {
-    font-family: "NotoSansSC-Bold", sans-serif;
+.post-content {
+    font-family: "LXGW WenKai Screen", sans-serif;
 }
-
+​
+.post-title {
+    font-family: "LXGW WenKai Screen", sans-serif;
+}
+​
+.logo a {
+    font-family: "LXGW WenKai Screen", sans-serif;
+}
+​
 #menu a {
-    font-family: "NotoSansSC-Bold", sans-serif;
+    font-family: "LXGW WenKai Screen", sans-serif;
 }
