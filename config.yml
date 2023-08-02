@@ -78,7 +78,7 @@ params:
     author: 半生
     # author: ["Me", "You"] # multiple authors
     defaultTheme: auto  # defaultTheme: light or  dark 
-    disableThemeToggle: false
+    disableThemeToggle: true
     DateFormat: "2006-01-02"
     ShowShareButtons: false
     ShowReadingTime: true
