@@ -85,6 +85,8 @@ params:
     ShowCodeCopyButtons: true
     # disableSpecialistPost: true
     displayFullLangName: true
+    disableScrollToTop: false # 回到首页按钮
+
     ShowPostNavLinks: true
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
