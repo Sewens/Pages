@@ -3,6 +3,7 @@ author: sewen
 created: "2021-11-24 22:46"
 tags: ["#lawbda-kb"]
 title: "从三元Loss到文本排序"
+math: true
 ---
 
 # 背景由来
