@@ -99,6 +99,8 @@ params:
 
     ShowToc: true # 显示目录
     TocOpen: true # 自动展开目录
+    TocSide: left # 浮动目录位置
+
     disableShare: true # 不显示share按钮
     comments: true
     
