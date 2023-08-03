@@ -9,6 +9,7 @@ weight:
 draft: false # 是否为草稿
 comments: true # 本页面是否显示评论
 math: true # 是否开启KaTex渲染页面公式
+showToc: true
 # mermaid: true #是否开启mermaid
 tags:
     - text ranking
