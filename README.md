@@ -16,6 +16,8 @@ Wish all my friends live long and prosper.
 - [ ] 给post增加创建时间、最近修改时间显示功能
 - [ ] 设计新的浮动清爽`Toc`，随着阅读进度始终保持在主要文章左侧
 - [ ] 设计友链页面，添加友链
+- [ ] 添加[InstantClick](http://instantclick.io/)机制用于页面的预加载
+- [ ] 添加[CloudFlare](https://www.cloudflare.com/)CDN功能用于网站分发、入墙和流量安全
 
 
 ## desc
