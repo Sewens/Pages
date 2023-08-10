@@ -17,7 +17,7 @@ Wish all my friends live long and prosper.
 - [x] 设计新的浮动清爽`Toc`，随着阅读进度始终保持在主要文章左侧
 - [ ] 设计友链页面，添加友链
 - [ ] 添加[InstantClick](http://instantclick.io/)机制用于页面的预加载
-- [ ] 添加[CloudFlare](https://www.cloudflare.com/)CDN功能用于网站分发、入墙和流量安全
+- [x] 添加[CloudFlare](https://www.cloudflare.com/)CDN功能用于网站分发、入墙和流量安全
 - [ ] 使用`Hugo`推荐方案[Chroma](https://gohugo.io/content-management/syntax-highlighting)作为代码高亮方案
 - [ ] 实现`Toc`跟踪实施阅读章节功能，[参考](https://www.bram.us/2020/01/10/smooth-scrolling-sticky-scrollspy-navigation/)使用纯粹css方案实现当前阅读章节加粗
 
