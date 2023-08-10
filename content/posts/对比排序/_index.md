@@ -1,7 +1,9 @@
 ---
+title: "从三元Loss到文本排序"
+slug: triplet_loss-text_ranking-contrastive_learning
 date: "2021-11-24 22:46"
 lastmod: "2023-07-31 00:00"
-title: "从三元Loss到文本排序"
+
 
 # lastmod: {{ .Date }}
 author: ["Sewens"]
