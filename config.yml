@@ -80,22 +80,25 @@ params:
     defaultTheme: auto  # defaultTheme: light or  dark 
     disableThemeToggle: true # 主题切换按钮
     DateFormat: "2006-01-02"
+
+    # post header settings
     ShowShareButtons: false
     ShowReadingTime: true
     ShowCodeCopyButtons: true
-    # disableSpecialistPost: true
-    displayFullLangName: true
-    disableScrollToTop: false # 回到首页按钮
-
+    ShowWordCounts: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
+    ShowLastMod: true #显示文章更新时间
+
+    displayFullLangName: true
+    disableScrollToTop: false # 回到首页按钮
+    # disableSpecialistPost: true
+
     hideFooter: false # 隐藏页脚
     hideMeta: false  # 隐藏元信息
-    ShowWordCounts: true
     VisitCount: true
 
-    ShowLastMod: true #显示文章更新时间
 
     ShowToc: false # 显示目录
     TocOpen: true # 自动展开目录
