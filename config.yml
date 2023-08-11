@@ -79,7 +79,7 @@ params:
     author: 半生
     # author: ["Me", "You"] # multiple authors
     defaultTheme: auto  # defaultTheme: light or  dark 
-    disableThemeToggle: true # 主题切换按钮
+    disableThemeToggle: false # 主题切换按钮
     DateFormat: "2006-01-02"
 
     # post header settings
