@@ -4,7 +4,10 @@ Wish all my friends live long and prosper.
 
 ## todo
 
-- [ ] `code block`美化，使用舒服养眼的字体和背景
+- [ ] `code block`优化
+  - [ ] 使用hugo推荐的`chroma`作为代码块高亮方案
+  - [ ] 使得通过配置文件指定代码块样式成为可能，对应`chroma`支持的样式[列表](https://xyproto.github.io/splash/docs/all.html)
+
 - [x] 优化图片显示和排版
   - [x] 解决图片相对路径插入
   - [ ] 实现插入图片大小限制约束功能
