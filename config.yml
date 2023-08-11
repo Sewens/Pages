@@ -180,8 +180,8 @@ markup:
         # anchorLineNos: true
         codeFences: true  
         guessSyntax: true
-        lineNos: false
-        noClasses: true
+        lineNos: true
+        noClasses: false
         style: perldoc
         # tabWidth: 4
 
