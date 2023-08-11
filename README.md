@@ -6,6 +6,9 @@ Wish all my friends live long and prosper.
 
 - [ ] `code block`美化，使用舒服养眼的字体和背景
 - [x] 优化图片显示和排版
+  - [x] 解决图片相对路径插入
+  - [ ] 实现插入图片大小限制约束功能
+  - [ ] 实现图注功能
 - [x] `latex`渲染支持，`latex block`美化
 - [ ] `logo`美化字体表现（可exclusive实现）
 - [ ] 页面整体风格和配色优化：![#5BCEFA](https://placehold.co/15x15/5BCEFA/5BCEFA.png)、![#FFF](https://placehold.co/15x15/FFF/FFF.png)、![#F5A9B8](https://placehold.co/15x15/F5A9B8/F5A9B8.png)
