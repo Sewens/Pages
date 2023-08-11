@@ -1,6 +1,6 @@
 ---
 title: "从三元Loss到文本排序"
-slug: triplet_loss-text_ranking-contrastive_learning
+slug: "triplet_loss-text_ranking-contrastive_learning"
 date: "2021-11-24 22:46"
 lastmod: "2023-07-31 00:00"
 
@@ -10,25 +10,12 @@ author: ["Sewens"]
 description: ""
 weight:
 draft: false # 是否为草稿
-comments: true # 本页面是否显示评论
 math: true # 是否开启KaTex渲染页面公式
 showToc: true
-# mermaid: true #是否开启mermaid
 tags:
     - text ranking
     - contrastive learning
     - learning to rank
-# keywords: 
-# - 
-# categories:
-# - 
-# cover:
-#     image: "" #图片路径例如：posts/tech/123/123.png
-#     zoom: # 图片大小，例如填写 50% 表示原图像的一半大小
-#     caption: "" #图片底部描述
-#     alt: ""
-#     relative: false
-
 ---
 
 # 背景由来
