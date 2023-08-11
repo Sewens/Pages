@@ -26,5 +26,5 @@ Wish all my friends live long and prosper.
 
 ## bug
 
-- [ ] permalink参数配置无效，无法修改post链接格式
-- [ ] post元信息无法显示
+- [x] ~~permalink参数配置无效，无法修改post链接格式~~
+- [x] ~~post元信息无法显示~~
