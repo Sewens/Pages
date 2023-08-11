@@ -107,7 +107,9 @@ params:
 
     disableShare: true # 不显示share按钮
     comments: true
-    
+
+    assets:
+        disableHLJS: true # 不使用highlightJS
     # socialIcons:
     #     - name: github
     #       url: "https://github.com/sewens"
@@ -178,10 +180,10 @@ markup:
         # anchorLineNos: true
         codeFences: true  
         guessSyntax: true
-        lineNos: true
-        # noClasses: false
-        # style: monokai
-        style: catppuccin-latte
+        lineNos: false
+        noClasses: true
+        style: perldoc
+        # tabWidth: 4
 
         # codeFences：代码围栏功能，这个功能一般都要设为 true 的，不然很难看，就是干巴巴的-代码文字，没有颜色。
         # guessSyntax：猜测语法，这个功能建议设置为 true, 如果你没有设置要显示的语言则会自动匹配。
