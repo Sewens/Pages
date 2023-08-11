@@ -1,8 +1,18 @@
 ---
-author: sewen
-created: "2022-01-18 17:29"
-tags: ["#lawbda-kb"]
+date: "2022-01-18 17:29"
 title: "torch随机初始化神经网络"
+slug: "torch-randomize-nn"
+lastmod: "2023-07-31 00:00"
+author: ["半生"]
+description: ""
+weight:
+draft: false # 是否为草稿
+math: true # 是否开启KaTex渲染页面公式
+showToc: true
+tags:
+    - text ranking
+    - contrastive learning
+    - learning to rank
 ---
 # 背景
 最近有个实际需求，对比尝试直接在 Bert 和 Roberta 架构下直接进行模型训练。所以要求在加载原有模型的架构和权重基础上，将权重全部初始化。尝试了最简单的方案，即通过`state_dict`来修改模型内部的权重参数，结果模型跑起来直接 loss 变为 `nan`。看样子这种简单粗暴方案不太行。
