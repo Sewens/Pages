@@ -23,9 +23,9 @@ minify:
     # minifyOutput: true
 
 permalinks: #浏览器链接显示方式
-  post: "/:slug/"
+  # post: "/:slug/"
   # essays: /:section/:year/:month/:slug
-  # post: "/:year/:month/:day/:title/"
+  post: "/:year/:month/:day/:title/"
 
 languages:
     zh:
