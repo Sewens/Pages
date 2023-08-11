@@ -5,7 +5,7 @@ Wish all my friends live long and prosper.
 ## todo
 
 - [ ] `code block`美化，使用舒服养眼的字体和背景
-- [ ] 优化图片显示和排版
+- [x] 优化图片显示和排版
 - [x] `latex`渲染支持，`latex block`美化
 - [ ] `logo`美化字体表现（可exclusive实现）
 - [ ] 页面整体风格和配色优化：![#5BCEFA](https://placehold.co/15x15/5BCEFA/5BCEFA.png)、![#FFF](https://placehold.co/15x15/FFF/FFF.png)、![#F5A9B8](https://placehold.co/15x15/F5A9B8/F5A9B8.png)
@@ -20,6 +20,5 @@ Wish all my friends live long and prosper.
 - [x] 添加[CloudFlare](https://www.cloudflare.com/)CDN功能用于网站分发、入墙和流量安全
 - [ ] 使用`Hugo`推荐方案[Chroma](https://gohugo.io/content-management/syntax-highlighting)作为代码高亮方案
 - [ ] 实现`Toc`跟踪实施阅读章节功能，[参考](https://www.bram.us/2020/01/10/smooth-scrolling-sticky-scrollspy-navigation/)使用纯粹css方案实现当前阅读章节加粗
-
-
-## desc
+- [ ] 文章页元信息功能修复
+- [ ] permalinks生成形式指定
