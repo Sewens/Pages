@@ -5,7 +5,7 @@ Wish all my friends live long and prosper.
 ## todo
 
 - [ ] `code block`优化
-  - [ ] 使用hugo推荐的`chroma`作为代码块高亮方案
+  - [x] 使用hugo推荐的`chroma`作为代码块高亮方案
   - [ ] 使得通过配置文件指定代码块样式成为可能，对应`chroma`支持的样式[列表](https://xyproto.github.io/splash/docs/all.html)
   - [x] 从项目中移除`highlighJS`的本地高亮支持，参考项目[papermodX](https://github.com/reorx/hugo-PaperModX)
   
@@ -32,4 +32,4 @@ Wish all my friends live long and prosper.
 
 - [x] ~~permalink参数配置无效，无法修改post链接格式~~
 - [x] ~~post元信息无法显示~~
-- [ ] 代码高亮主题切换功能存在问题，删除`highlightJS`之后代码块背景显示存在问题
+- [x] ~~代码高亮主题切换功能存在问题，删除`highlightJS`之后代码块背景显示存在问题~~
