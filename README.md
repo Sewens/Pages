@@ -7,7 +7,7 @@ Wish all my friends live long and prosper.
 - [ ] `code block`优化
   - [ ] 使用hugo推荐的`chroma`作为代码块高亮方案
   - [ ] 使得通过配置文件指定代码块样式成为可能，对应`chroma`支持的样式[列表](https://xyproto.github.io/splash/docs/all.html)
-  - [ ] 从项目中移除`highlighJS`的本地高亮支持，参考项目[papermodX](https://github.com/reorx/hugo-PaperModX)
+  - [x] 从项目中移除`highlighJS`的本地高亮支持，参考项目[papermodX](https://github.com/reorx/hugo-PaperModX)
   
 - [x] 优化图片显示和排版
   - [x] 解决图片相对路径插入
