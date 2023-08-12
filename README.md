@@ -32,3 +32,4 @@ Wish all my friends live long and prosper.
 
 - [x] ~~permalink参数配置无效，无法修改post链接格式~~
 - [x] ~~post元信息无法显示~~
+- [ ] 代码高亮主题切换功能存在问题，删除`highlightJS`之后代码块背景显示存在问题

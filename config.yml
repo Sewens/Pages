@@ -175,21 +175,14 @@ markup:
     goldmark:
         renderer:
             unsafe: true # HUGO 默认转义 Markdown 文件中的 HTML 代码，如需开启的话
-    # highlight:
-    #     # anchorLineNos: true
-    #     codeFences: true  
-    #     guessSyntax: true
-    #     lineNos: true
-    #     noClasses: false
-    #     style: perldoc
-    #     # tabWidth: 4
     highlight:
         # anchorLineNos: true
-        codeFences: true
+        codeFences: true  
         guessSyntax: true
         lineNos: true
-        # noClasses: false
-        style: xcode-dark
+        noClasses: false
+        style: perldoc
+        # tabWidth: 4
         # codeFences：代码围栏功能，这个功能一般都要设为 true 的，不然很难看，就是干巴巴的-代码文字，没有颜色。
         # guessSyntax：猜测语法，这个功能建议设置为 true, 如果你没有设置要显示的语言则会自动匹配。
         # hl_Lines：高亮的行号，一般这个不设置，因为每个代码块我们可能希望让高亮的地方不一样。
