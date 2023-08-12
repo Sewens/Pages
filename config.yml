@@ -109,7 +109,6 @@ params:
     comments: true
 
     assets:
-        disableHLJS: true # 不使用highlightJS
     # socialIcons:
     #     - name: github
     #       url: "https://github.com/sewens"
