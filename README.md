@@ -34,3 +34,4 @@ Wish all my friends live long and prosper.
 - [x] ~~post元信息无法显示~~
 - [x] ~~代码高亮主题切换功能存在问题，删除`highlightJS`之后代码块背景显示存在问题~~
 - [x] 修复`cloudflare`托管主页之后浏览器报错redirect too many time 错误
+- [ ] toc暗色模式下`toc-side-left`比`inner`宽一个像素（且背景色没有随暗色模式切换）
