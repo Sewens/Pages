@@ -1,6 +1,6 @@
 # 半生的猫猫咖啡馆
 
-Wish all my friends live long and prosper.
+Wish all my friends live long and prosper. 慎终如始，则无败事。
 
 ## todo
 
