@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Trans'action on Living Pride"
-  text: "A VitePress Site"
+  text: "生而繁荣🍥"
   tagline: My great project tagline
   actions:
     - theme: brand
